@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1e668ff2;
+    z-index: 1000;
+}
+#navbar ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 0;
+}
+#navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+#navbar ul li a:hover {
+    color: yellow;
+}
+.section {
+    padding: 80px 20px;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.section p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.section img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+#home {
+    background-color: #ff3ba0;
+    color:white;
+}
+#news {
+    background-color: #2196f3;
+    color: white;
+}
+#players {
+    background-color: #f44336;
+    color: white;
+}
+#matches {
+    background-color: #4caf50;
+    color: white;
+}
+#contact {
+    background-color: #9c27b0;
+    color: white;
+}
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.scrolled {
+    background-color:#1e668ff2;!important;
+    transition: background-color 0.5s ease;
+}
+
